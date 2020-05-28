@@ -2,7 +2,7 @@ FROM python:stretch
 
 WORKDIR /usr/src/app
 
-EXPOSE 80
+EXPOSE 8080
 
 COPY . /usr/src/app
 
